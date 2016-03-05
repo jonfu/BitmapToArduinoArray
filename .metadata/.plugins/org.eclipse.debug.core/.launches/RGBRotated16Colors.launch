@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/RGBRotated8bit/src/RGBRotated256Colors.java"/>
+<listEntry value="/RGBRotated4bit/src/RGBRotated16Colors.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="RGBRotated256Colors"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="soundwave spectrum"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="RGBRotated8bit"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="RGBRotated16Colors"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="rainbowarrows"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="RGBRotated4bit"/>
 </launchConfiguration>

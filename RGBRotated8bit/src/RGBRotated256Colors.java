@@ -22,14 +22,14 @@ public class RGBRotated256Colors {
 
 	  //uncomment the for loop if you like to generate a list of files passed in via arguments
 		
-	  //for (int y=0; y<args.length; y++) {
+	  for (int y=0; y<args.length; y++) {
 		
-		//String filename = args[y];
-		String filename = "funguys";
+		String filename = args[y];
+		//String filename = "funguys";
 
 		BufferedImage bi = null;
 		try {
-			bi = ImageIO.read( new File( "D:/pov/" + filename + ".bmp" ) );
+			bi = ImageIO.read( new File( "D:/pov/20/8bit/" + filename + ".bmp" ) );
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -73,7 +73,7 @@ public class RGBRotated256Colors {
 		System.out.println("// WIDTH" + filename + " " + imgWidth + ", array size " + data.length);
 		System.out.println("#define HEIGHT" + filename + " " + imgHeight);
 		
-		System.out.println("const byte " + filename + "Palette[" + icm.getMapSize() + "][3] = {");
+		System.out.println("PROGMEM const byte " + filename + "Palette[" + icm.getMapSize() + "][3] = {");
 		
 		for (int i=0; i<icm.getMapSize(); i++) {
 			/*
@@ -131,7 +131,7 @@ public class RGBRotated256Colors {
 
 		
 		
-	//}
+	  }
 	  
 	  
 	}
