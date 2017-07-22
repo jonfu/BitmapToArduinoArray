@@ -29,7 +29,7 @@ public class RGBRotated256Colors {
 
 		BufferedImage bi = null;
 		try {
-			bi = ImageIO.read( new File( "D:/pov/20/8bit/" + filename + ".bmp" ) );
+			bi = ImageIO.read( new File( "E:/pov/20/8bit/" + filename + ".bmp" ) );
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

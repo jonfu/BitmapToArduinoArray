@@ -27,7 +27,7 @@ public class RGBRotated16Colors {
 
 		BufferedImage bi = null;
 		try {
-			bi = ImageIO.read( new File( "D:/pov/48/4bit/" + filename + ".bmp" ) );
+			bi = ImageIO.read( new File( "E:/pov/20/4bit/" + filename + ".bmp" ) );
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

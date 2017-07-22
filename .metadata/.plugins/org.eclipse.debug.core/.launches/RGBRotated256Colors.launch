@@ -7,6 +7,6 @@
 <listEntry value="1"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="RGBRotated256Colors"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="soundwave spectrum"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="rainbow2"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="RGBRotated8bit"/>
 </launchConfiguration>
